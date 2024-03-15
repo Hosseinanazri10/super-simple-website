@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+html {
+  scroll-behavior: smooth;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+
+section {
+  height: 100vh;
+}
+header,
+footer {
+  color: white;
+  text-align: center;
+  height: 100px;
+}
+header {
+  position: sticky;
+  top: 0;
+  font-size: 2rem;
+}
+footer {
+  background-color: black;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  font-size: 2rem;
+}
+.social {
+  background-color: blueviolet;
+  color: whitesmoke;
+  font-size: inherit;
+  padding: 10px;
+  position: fixed;
+  top: 30%;
+  left: 0;
+  z-index: 1;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover { color: red;}
